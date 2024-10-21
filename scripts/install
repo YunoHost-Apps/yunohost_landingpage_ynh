@@ -28,7 +28,7 @@ pushd "$install_dir" > /dev/null
 _update_venv
 ynh_exec_as_app "$install_dir/venv/bin/pip" install -r landingpage/requirements.txt > /dev/null
 
-ynh_exec_as_app env LANDINGPAGE_DIST_DIR="$install_dir/www" ./landingpage/bin/regenerate.sh
+ynh_exec_as_app LANDINGPAGE_DIST_DIR="$install_dir/www" ./landingpage/bin/regenerate.sh
 
 popd > /dev/null
 
