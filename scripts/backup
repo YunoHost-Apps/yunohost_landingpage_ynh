@@ -21,6 +21,7 @@ ynh_backup "$install_dir"
 #=================================================
 
 ynh_backup "/etc/nginx/conf.d/$domain.d/$app.conf"
+ynh_backup "$lang_map_conf"
 
 ynh_backup "/etc/logrotate.d/$app"
 

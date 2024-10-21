@@ -25,6 +25,7 @@ chmod g+s "$install_dir/www"
 ynh_script_progression "Restoring system configurations related to $app..."
 
 ynh_restore "/etc/nginx/conf.d/$domain.d/$app.conf"
+ynh_restore "$lang_map_conf"
 
 ynh_restore "/etc/logrotate.d/$app"
 

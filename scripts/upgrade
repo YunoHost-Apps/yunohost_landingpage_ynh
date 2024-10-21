@@ -40,6 +40,10 @@ ynh_script_progression "Upgrading system configurations related to $app..."
 
 ynh_config_add_nginx
 
+ynh_config_add --template="nginx_lang_map.conf" --destination="$lang_map_conf"
+chown root: "$lang_map_conf"
+chmod 644 "$lang_map_conf"
+
 ynh_config_add_logrotate
 
 #=================================================

@@ -4,6 +4,8 @@
 # COMMON VARIABLES AND CUSTOM HELPERS
 #=================================================
 
+lang_map_conf="/etc/nginx/conf.d/${domain}_${app}_lang_map.conf"
+
 _git_clone_or_pull() {
     repo_dir="$1"
     repo_url="${2:-}"
