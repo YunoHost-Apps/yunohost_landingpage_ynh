@@ -1,0 +1,48 @@
+#!/bin/bash
+
+#=================================================
+# IMPORT GENERIC HELPERS
+#=================================================
+
+source _common.sh
+source /usr/share/yunohost/helpers
+
+#=================================================
+# DOWNLOAD, CHECK AND UNPACK SOURCE
+#=================================================
+ynh_script_progression "Upgrading source files..."
+
+_git_clone_or_pull "$install_dir/landingpage"
+
+mkdir -p "$install_dir/www"
+chown -R "$app:www-data" "$install_dir/www"
+chmod g+s "$install_dir/www"
+
+#=================================================
+# INSTALL APP
+#=================================================
+ynh_script_progression "Upgrading app..." --weight=5
+
+pushd "$install_dir" > /dev/null
+
+_update_venv
+ynh_exec_as_app "$install_dir/venv/bin/pip" install -r landingpage/requirements.txt > /dev/null
+
+ynh_exec_as_app env LANDINGPAGE_DIST_DIR="$install_dir/www" ./landingpage/bin/regenerate.sh
+
+popd > /dev/null
+
+#=================================================
+# REAPPLY SYSTEM CONFIGURATIONS
+#=================================================
+ynh_script_progression "Upgrading system configurations related to $app..."
+
+ynh_config_add_nginx
+
+ynh_config_add_logrotate
+
+#=================================================
+# END OF SCRIPT
+#=================================================
+
+ynh_script_progression "Upgrade of $app completed"
