@@ -15,7 +15,8 @@ ynh_script_progression "Restoring the app main directory..."
 
 ynh_restore "$install_dir"
 
-chown -R "$app:$app" "$install_dir"
+chown "$app:www-data" "$install_dir"
+chown -R "$app:$app" "$install_dir/landingpage"
 chown -R "$app:www-data" "$install_dir/www"
 chmod g+s "$install_dir/www"
 
@@ -24,8 +25,8 @@ chmod g+s "$install_dir/www"
 #=================================================
 ynh_script_progression "Restoring system configurations related to $app..."
 
-ynh_restore "/etc/nginx/conf.d/$domain.d/$app.conf"
 ynh_restore "$lang_map_conf"
+ynh_restore "/etc/nginx/conf.d/$domain.d/$app.conf"
 
 ynh_restore "/etc/logrotate.d/$app"
 

@@ -13,9 +13,10 @@ source /usr/share/yunohost/helpers
 ynh_script_progression "Upgrading source files..."
 
 _git_clone_or_pull "$install_dir/landingpage"
-chown -R "$app:$app" "$install_dir/landingpage"
-
 mkdir -p "$install_dir/www"
+
+chown "$app:www-data" "$install_dir"
+chown -R "$app:$app" "$install_dir/landingpage"
 chown -R "$app:www-data" "$install_dir/www"
 chmod g+s "$install_dir/www"
 
@@ -38,11 +39,11 @@ popd > /dev/null
 #=================================================
 ynh_script_progression "Upgrading system configurations related to $app..."
 
-ynh_config_add_nginx
-
 ynh_config_add --template="nginx_lang_map.conf" --destination="$lang_map_conf"
 chown root: "$lang_map_conf"
 chmod 644 "$lang_map_conf"
+
+ynh_config_add_nginx
 
 ynh_config_add_logrotate
 

@@ -13,9 +13,10 @@ source /usr/share/yunohost/helpers
 ynh_script_progression "Setting up source files..."
 
 _git_clone_or_pull "$install_dir/landingpage"
-chown -R "$app:$app" "$install_dir/landingpage"
-
 mkdir -p "$install_dir/www"
+
+chown "$app:www-data" "$install_dir"
+chown -R "$app:$app" "$install_dir/landingpage"
 chown -R "$app:www-data" "$install_dir/www"
 chmod g+s "$install_dir/www"
 
