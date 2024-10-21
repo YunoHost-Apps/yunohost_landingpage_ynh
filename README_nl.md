@@ -24,7 +24,7 @@ Hij mag NIET handmatig aangepast worden.
 ## Documentatie en bronnen
 
 - Officiele website van de app: <https://yunohost.org>
-- Upstream app codedepot: <https://github.com/yunohost/landingpage>
+- Upstream app codedepot: <git@github.com:yunohost/landingpage>
 - YunoHost-store: <https://apps.yunohost.org/app/landing>
 - Meld een bug: <https://github.com/YunoHost-Apps/landing_ynh/issues>
 

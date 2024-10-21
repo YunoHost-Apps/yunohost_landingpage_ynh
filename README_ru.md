@@ -24,7 +24,7 @@
 ## Документация и ресурсы
 
 - Официальный веб-сайт приложения: <https://yunohost.org>
-- Репозиторий кода главной ветки приложения: <https://github.com/yunohost/landingpage>
+- Репозиторий кода главной ветки приложения: <git@github.com:yunohost/landingpage>
 - Магазин YunoHost: <https://apps.yunohost.org/app/landing>
 - Сообщите об ошибке: <https://github.com/YunoHost-Apps/landing_ynh/issues>
 

@@ -24,7 +24,7 @@ EZ editatu eskuz.
 ## Dokumentazioa eta baliabideak
 
 - Aplikazioaren webgune ofiziala: <https://yunohost.org>
-- Jatorrizko aplikazioaren kode-gordailua: <https://github.com/yunohost/landingpage>
+- Jatorrizko aplikazioaren kode-gordailua: <git@github.com:yunohost/landingpage>
 - YunoHost Denda: <https://apps.yunohost.org/app/landing>
 - Eman errore baten berri: <https://github.com/YunoHost-Apps/landing_ynh/issues>
 
