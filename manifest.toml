@@ -2,7 +2,7 @@
 
 packaging_format = 2
 
-id = "landing"
+id = "landingpage"
 name = "YunoHost Landing Page"
 
 description.en = "Yunohost landing page"
