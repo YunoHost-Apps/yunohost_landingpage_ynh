@@ -5,9 +5,9 @@ Il NE doit PAS être modifié à la main.
 
 # YunoHost Landing Page pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/landing.svg)](https://ci-apps.yunohost.org/ci/apps/landing/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/landing.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/landing.maintain.svg)
+[![Niveau d’intégration](https://dash.yunohost.org/integration/landingpage.svg)](https://ci-apps.yunohost.org/ci/apps/landingpage/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/landingpage.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/landingpage.maintain.svg)
 
-[![Installer YunoHost Landing Page avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=landing)
+[![Installer YunoHost Landing Page avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=landingpage)
 
 *[Lire le README dans d'autres langues.](./ALL_README.md)*
 
@@ -25,19 +25,19 @@ Page d'accueil de Yunohost
 
 - Site officiel de l’app : <https://yunohost.org>
 - Dépôt de code officiel de l’app : <git@github.com:yunohost/landingpage>
-- YunoHost Store : <https://apps.yunohost.org/app/landing>
-- Signaler un bug : <https://github.com/YunoHost-Apps/landing_ynh/issues>
+- YunoHost Store : <https://apps.yunohost.org/app/landingpage>
+- Signaler un bug : <https://github.com/YunoHost-Apps/landingpage_ynh/issues>
 
 ## Informations pour les développeurs
 
-Merci de faire vos pull request sur la [branche `testing`](https://github.com/YunoHost-Apps/landing_ynh/tree/testing).
+Merci de faire vos pull request sur la [branche `testing`](https://github.com/YunoHost-Apps/landingpage_ynh/tree/testing).
 
 Pour essayer la branche `testing`, procédez comme suit :
 
 ```bash
-sudo yunohost app install https://github.com/YunoHost-Apps/landing_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/landingpage_ynh/tree/testing --debug
 ou
-sudo yunohost app upgrade landing -u https://github.com/YunoHost-Apps/landing_ynh/tree/testing --debug
+sudo yunohost app upgrade landingpage -u https://github.com/YunoHost-Apps/landingpage_ynh/tree/testing --debug
 ```
 
 **Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>

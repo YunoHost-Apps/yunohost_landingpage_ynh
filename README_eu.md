@@ -5,9 +5,9 @@ EZ editatu eskuz.
 
 # YunoHost Landing Page YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/landing.svg)](https://ci-apps.yunohost.org/ci/apps/landing/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/landing.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/landing.maintain.svg)
+[![Integrazio maila](https://dash.yunohost.org/integration/landingpage.svg)](https://ci-apps.yunohost.org/ci/apps/landingpage/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/landingpage.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/landingpage.maintain.svg)
 
-[![Instalatu YunoHost Landing Page YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=landing)
+[![Instalatu YunoHost Landing Page YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=landingpage)
 
 *[Irakurri README hau beste hizkuntzatan.](./ALL_README.md)*
 
@@ -25,19 +25,19 @@ EZ editatu eskuz.
 
 - Aplikazioaren webgune ofiziala: <https://yunohost.org>
 - Jatorrizko aplikazioaren kode-gordailua: <git@github.com:yunohost/landingpage>
-- YunoHost Denda: <https://apps.yunohost.org/app/landing>
-- Eman errore baten berri: <https://github.com/YunoHost-Apps/landing_ynh/issues>
+- YunoHost Denda: <https://apps.yunohost.org/app/landingpage>
+- Eman errore baten berri: <https://github.com/YunoHost-Apps/landingpage_ynh/issues>
 
 ## Garatzaileentzako informazioa
 
-Bidali `pull request`a [`testing` abarrera](https://github.com/YunoHost-Apps/landing_ynh/tree/testing).
+Bidali `pull request`a [`testing` abarrera](https://github.com/YunoHost-Apps/landingpage_ynh/tree/testing).
 
 `testing` abarra probatzeko, ondorengoa egin:
 
 ```bash
-sudo yunohost app install https://github.com/YunoHost-Apps/landing_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/landingpage_ynh/tree/testing --debug
 edo
-sudo yunohost app upgrade landing -u https://github.com/YunoHost-Apps/landing_ynh/tree/testing --debug
+sudo yunohost app upgrade landingpage -u https://github.com/YunoHost-Apps/landingpage_ynh/tree/testing --debug
 ```
 
 **Informazio gehiago aplikazioaren paketatzeari buruz:** <https://yunohost.org/packaging_apps>
