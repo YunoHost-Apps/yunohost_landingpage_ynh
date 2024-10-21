@@ -17,7 +17,7 @@ license = "GPLv3"
 website = "https://yunohost.org"
 demo = "https://yunohost.org"
 
-code = "https://github.com/yunohost/landingpage"
+code = "git@github.com:yunohost/landingpage"
 
 [integration]
 yunohost = ">= 11.2"
