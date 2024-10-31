@@ -1,9 +1,5 @@
 #!/bin/bash
 
-#=================================================
-# IMPORT GENERIC HELPERS
-#=================================================
-
 source _common.sh
 source /usr/share/yunohost/helpers
 
@@ -25,14 +21,11 @@ chmod g+s "$install_dir/www"
 #=================================================
 ynh_script_progression "Installing app..."
 
-pushd "$install_dir" > /dev/null
-
-_update_venv
-ynh_exec_as_app "$install_dir/venv/bin/pip" install -r landingpage/requirements.txt > /dev/null
-
-ynh_exec_as_app LANDINGPAGE_DIST_DIR="$install_dir/www" ./landingpage/bin/regenerate.sh
-
-popd > /dev/null
+pushd "$install_dir"
+	_update_venv
+	ynh_exec_as_app "$install_dir/venv/bin/pip" install -r landingpage/requirements.txt > /dev/null
+	ynh_exec_as_app LANDINGPAGE_DIST_DIR="$install_dir/www" ./landingpage/bin/regenerate.sh
+popd
 
 #=================================================
 # SYSTEM CONFIGURATION
