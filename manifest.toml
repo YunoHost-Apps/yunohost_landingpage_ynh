@@ -13,7 +13,7 @@ version = "1.0~ynh1"
 maintainers = ["salamandar"]
 
 [upstream]
-license = "GPLv3"
+license = "AGPL-3.0"
 website = "https://yunohost.org"
 demo = "https://yunohost.org"
 
