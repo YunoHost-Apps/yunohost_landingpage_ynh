@@ -16,7 +16,7 @@ It shall NOT be edited by hand.
 
 ## Overview
 
-Yunohost landing page
+YunoHost landing page.
 
 **Shipped version:** 1.0~ynh1
 

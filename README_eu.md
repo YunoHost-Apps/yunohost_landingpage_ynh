@@ -16,7 +16,7 @@ EZ editatu eskuz.
 
 ## Aurreikuspena
 
-
+YunoHost landing page.
 
 **Paketatutako bertsioa:** 1.0~ynh1
 

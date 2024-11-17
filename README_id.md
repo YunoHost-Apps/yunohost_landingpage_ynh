@@ -16,7 +16,7 @@ Ini TIDAK boleh diedit dengan tangan.
 
 ## Ringkasan
 
-
+YunoHost landing page.
 
 **Versi terkirim:** 1.0~ynh1
 

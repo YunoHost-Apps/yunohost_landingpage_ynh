@@ -16,7 +16,7 @@ No se debe editar a mano.
 
 ## Descripción general
 
-
+YunoHost landing page.
 
 **Versión actual:** 1.0~ynh1
 

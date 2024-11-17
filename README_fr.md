@@ -16,7 +16,7 @@ Il NE doit PAS être modifié à la main.
 
 ## Vue d’ensemble
 
-Page d'accueil de Yunohost
+YunoHost landing page.
 
 **Version incluse :** 1.0~ynh1
 
