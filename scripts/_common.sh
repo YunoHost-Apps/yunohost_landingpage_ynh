@@ -19,6 +19,7 @@ _git_clone_or_pull() {
     else
         ynh_exec_as_app git clone "$repo_url" "$repo_dir" --quiet
     fi
+    ynh_exec_as_app git -C "$repo_dir" stash --quiet
     ynh_exec_as_app git -C "$repo_dir" pull --quiet
 }
 
