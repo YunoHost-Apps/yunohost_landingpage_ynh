@@ -20,7 +20,7 @@ Ini TIDAK boleh diedit dengan tangan.
 
 YunoHost landing page.
 
-**Versi terkirim:** 1.0~ynh1
+**Versi terkirim:** 1.1~ynh1
 
 **Demo:** <https://yunohost.org>
 ## Dokumentasi dan sumber daya
