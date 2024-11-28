@@ -11,6 +11,9 @@ ynh_script_progression "Upgrading source files..."
 _git_clone_or_pull "$install_dir/landingpage"
 mkdir -p "$install_dir/www"
 
+ynh_config_add --template="service_notify_kuma.sh" --destination="$install_dir/service_notify_kuma.sh"
+chmod +x "$install_dir/service_notify_kuma.sh"
+
 chown "$app:www-data" "$install_dir"
 chown -R "$app:$app" "$install_dir/landingpage"
 chown -R "$app:www-data" "$install_dir/www"
@@ -35,6 +38,11 @@ ynh_script_progression "Upgrading system configurations related to $app..."
 ynh_config_add --template="nginx_lang_map.conf" --destination="$lang_map_conf"
 chown root: "$lang_map_conf"
 chmod 644 "$lang_map_conf"
+
+ynh_config_add --template="systemd-update.service" --destination="/etc/systemd/system/$app-update.service"
+ynh_config_add --template="systemd-update.timer" --destination="/etc/systemd/system/$app-update.timer"
+systemctl daemon-reload
+systemctl enable "$app-update.timer" --now --quiet
 
 ynh_config_add_nginx
 

@@ -1,0 +1,10 @@
+[Unit]
+Description=Update __APP__ once every hour
+
+[Timer]
+OnCalendar=*-*-* *:00:00
+RandomizedDelaySec=10m
+Persistent=true
+
+[Install]
+WantedBy=timers.target

@@ -8,6 +8,10 @@ source /usr/share/yunohost/helpers
 #=================================================
 ynh_script_progression "Removing system configurations related to $app..."
 
+ynh_safe_rm "/etc/systemd/system/$app-update.service"
+ynh_safe_rm "/etc/systemd/system/$app-update.timer"
+systemctl daemon-reload
+
 ynh_config_remove_logrotate
 
 ynh_safe_rm "$lang_map_conf"
