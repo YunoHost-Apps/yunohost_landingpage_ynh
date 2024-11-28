@@ -26,7 +26,7 @@ YunoHost landing page.
 ## 文档与资源
 
 - 官方应用网站： <https://yunohost.org>
-- 上游应用代码库： <git@github.com:yunohost/landingpage>
+- 上游应用代码库： <https://github.com/yunohost/landingpage>
 - YunoHost 商店： <https://apps.yunohost.org/app/landingpage>
 - 报告 bug： <https://github.com/YunoHost-Apps/landingpage_ynh/issues>
 

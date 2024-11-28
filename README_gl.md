@@ -26,7 +26,7 @@ YunoHost landing page.
 ## Documentación e recursos
 
 - Web oficial da app: <https://yunohost.org>
-- Repositorio de orixe do código: <git@github.com:yunohost/landingpage>
+- Repositorio de orixe do código: <https://github.com/yunohost/landingpage>
 - Tenda YunoHost: <https://apps.yunohost.org/app/landingpage>
 - Informar dun problema: <https://github.com/YunoHost-Apps/landingpage_ynh/issues>
 

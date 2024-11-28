@@ -26,7 +26,7 @@ YunoHost landing page.
 ## Dokumentasi dan sumber daya
 
 - Website aplikasi resmi: <https://yunohost.org>
-- Depot kode aplikasi hulu: <git@github.com:yunohost/landingpage>
+- Depot kode aplikasi hulu: <https://github.com/yunohost/landingpage>
 - Gudang YunoHost: <https://apps.yunohost.org/app/landingpage>
 - Laporkan bug: <https://github.com/YunoHost-Apps/landingpage_ynh/issues>
 

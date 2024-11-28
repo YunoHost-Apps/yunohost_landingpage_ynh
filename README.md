@@ -26,7 +26,7 @@ YunoHost landing page.
 ## Documentation and resources
 
 - Official app website: <https://yunohost.org>
-- Upstream app code repository: <git@github.com:yunohost/landingpage>
+- Upstream app code repository: <https://github.com/yunohost/landingpage>
 - YunoHost Store: <https://apps.yunohost.org/app/landingpage>
 - Report a bug: <https://github.com/YunoHost-Apps/landingpage_ynh/issues>
 
