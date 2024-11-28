@@ -5,7 +5,9 @@
 
 # YunoHost 上的 YunoHost Landing Page
 
-[![集成程度](https://dash.yunohost.org/integration/landingpage.svg)](https://ci-apps.yunohost.org/ci/apps/landingpage/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/landingpage.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/landingpage.maintain.svg)
+[![集成程度](https://apps.yunohost.org/badge/integration/landingpage)](https://ci-apps.yunohost.org/ci/apps/landingpage/)
+![工作状态](https://apps.yunohost.org/badge/state/landingpage)
+![维护状态](https://apps.yunohost.org/badge/maintained/landingpage)
 
 [![使用 YunoHost 安装 YunoHost Landing Page](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=landingpage)
 

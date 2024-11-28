@@ -5,7 +5,9 @@ It shall NOT be edited by hand.
 
 # YunoHost Landing Page for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/landingpage.svg)](https://ci-apps.yunohost.org/ci/apps/landingpage/) ![Working status](https://ci-apps.yunohost.org/ci/badges/landingpage.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/landingpage.maintain.svg)
+[![Integration level](https://apps.yunohost.org/badge/integration/landingpage)](https://ci-apps.yunohost.org/ci/apps/landingpage/)
+![Working status](https://apps.yunohost.org/badge/state/landingpage)
+![Maintenance status](https://apps.yunohost.org/badge/maintained/landingpage)
 
 [![Install YunoHost Landing Page with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=landingpage)
 

@@ -5,7 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # YunoHost Landing Page untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/landingpage.svg)](https://ci-apps.yunohost.org/ci/apps/landingpage/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/landingpage.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/landingpage.maintain.svg)
+[![Tingkat integrasi](https://apps.yunohost.org/badge/integration/landingpage)](https://ci-apps.yunohost.org/ci/apps/landingpage/)
+![Status kerja](https://apps.yunohost.org/badge/state/landingpage)
+![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/landingpage)
 
 [![Pasang YunoHost Landing Page dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=landingpage)
 

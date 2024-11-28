@@ -5,7 +5,9 @@
 
 # YunoHost Landing Page для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/landingpage.svg)](https://ci-apps.yunohost.org/ci/apps/landingpage/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/landingpage.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/landingpage.maintain.svg)
+[![Уровень интеграции](https://apps.yunohost.org/badge/integration/landingpage)](https://ci-apps.yunohost.org/ci/apps/landingpage/)
+![Состояние работы](https://apps.yunohost.org/badge/state/landingpage)
+![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/landingpage)
 
 [![Установите YunoHost Landing Page с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=landingpage)
 
