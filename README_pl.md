@@ -20,7 +20,7 @@ Nie powinno być ono edytowane ręcznie.
 
 YunoHost landing page.
 
-**Dostarczona wersja:** 1.1~ynh1
+**Dostarczona wersja:** 1.2~ynh1
 
 **Demo:** <https://yunohost.org>
 ## Dokumentacja i zasoby
