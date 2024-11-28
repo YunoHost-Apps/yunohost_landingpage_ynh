@@ -12,6 +12,7 @@ chown "$app:www-data" "$install_dir"
 _git_clone_or_pull "$install_dir/landingpage"
 mkdir -p "$install_dir/www"
 
+: "${uptime_kuma_id:=}"
 ynh_config_add --template="service_notify_kuma.sh" --destination="$install_dir/service_notify_kuma.sh"
 chmod +x "$install_dir/service_notify_kuma.sh"
 
