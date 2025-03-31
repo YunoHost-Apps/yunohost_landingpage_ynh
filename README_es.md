@@ -3,7 +3,7 @@ Este archivo README esta generado automaticamente<https://github.com/YunoHost/ap
 No se debe editar a mano.
 -->
 
-# YunoHost Landing Page para Yunohost
+# YunoHost Landing Page para YunoHost
 
 [![Nivel de integración](https://apps.yunohost.org/badge/integration/landingpage)](https://ci-apps.yunohost.org/ci/apps/landingpage/)
 ![Estado funcional](https://apps.yunohost.org/badge/state/landingpage)
