@@ -20,7 +20,7 @@
 
 YunoHost landing page.
 
-**分发版本：** 1.3~ynh1
+**分发版本：** 1.4~ynh1
 
 **演示：** <https://yunohost.org>
 ## 文档与资源
