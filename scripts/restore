@@ -3,6 +3,9 @@
 source ../settings/scripts/_common.sh
 source /usr/share/yunohost/helpers
 
+# User creates www-data directory
+usermod -a -G www-data "$app"
+
 #=================================================
 # RESTORE THE APP MAIN DIR
 #=================================================
