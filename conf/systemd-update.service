@@ -9,7 +9,7 @@ Group=__APP__
 
 WorkingDirectory=__INSTALL_DIR__/
 Environment=LANDINGPAGE_DIST_DIR=__INSTALL_DIR__/www
-ExecStart=__INSTALL_DIR__/landingpage/bin/regenerate.sh
+ExecStart=__INSTALL_DIR__/update.sh
 ExecStopPost=__INSTALL_DIR__/service_notify_kuma.sh
 
 StandardOutput=append:/var/log/__APP__/update___APP__.log

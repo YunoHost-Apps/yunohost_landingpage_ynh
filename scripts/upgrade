@@ -16,6 +16,9 @@ mkdir -p "$install_dir/www"
 ynh_config_add --template="service_notify_kuma.sh" --destination="$install_dir/service_notify_kuma.sh"
 chmod +x "$install_dir/service_notify_kuma.sh"
 
+ynh_config_add --template="update.sh" --destination="$install_dir/update.sh"
+chmod +x "$install_dir/update.sh"
+
 chown -R "$app:$app" "$install_dir/landingpage"
 chown -R "$app:www-data" "$install_dir/www"
 chmod g+s "$install_dir/www"
