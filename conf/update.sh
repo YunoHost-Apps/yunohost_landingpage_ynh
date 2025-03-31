@@ -10,6 +10,7 @@ git -C "$INSTALL_DIR/landingpage" pull
 
 # Update the web page!
 LANDINGPAGE_DIST_DIR="$INSTALL_DIR/www_next" bash -x "$INSTALL_DIR/landingpage/bin/regenerate.sh"
+chown -R :www-data "$INSTALL_DIR/www_next"
 
 # "atomic" replace
 rm -rf "$INSTALL_DIR/www"
