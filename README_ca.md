@@ -20,7 +20,7 @@ NO s'ha de modificar manualment.
 
 YunoHost landing page.
 
-**Versió inclosa:** 1.2~ynh1
+**Versió inclosa:** 1.3~ynh1
 
 **Demo:** <https://yunohost.org>
 ## Documentació i recursos

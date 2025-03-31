@@ -20,7 +20,7 @@ EZ editatu eskuz.
 
 YunoHost landing page.
 
-**Paketatutako bertsioa:** 1.2~ynh1
+**Paketatutako bertsioa:** 1.3~ynh1
 
 **Demoa:** <https://yunohost.org>
 ## Dokumentazioa eta baliabideak
