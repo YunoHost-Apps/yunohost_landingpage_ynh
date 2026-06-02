@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -Eeuo pipefail
 
 INSTALL_DIR=__INSTALL_DIR__
 
