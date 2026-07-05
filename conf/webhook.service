@@ -1,5 +1,5 @@
 [Unit]
-Description=YunoHost update for __APP__
+Description=YunoHost update webhook endpoint for __APP__
 After=network.target
 
 [Service]
@@ -8,11 +8,9 @@ User=__APP__
 Group=__APP__
 
 WorkingDirectory=__INSTALL_DIR__/
-Environment=LANDINGPAGE_DIST_DIR=__INSTALL_DIR__/www
-ExecStart=__INSTALL_DIR__/update.sh
-ExecStopPost=__INSTALL_DIR__/service_notify_kuma.sh
+ExecStart=webhook -verbose -ip "127.0.0.1" -port "__PORT__" -hooks "__INSTALL_DIR__/webhook.yml"
 
-StandardOutput=append:/var/log/__APP__/update___APP__.log
+StandardOutput=append:/var/log/__APP__/__APP__-webhook.log
 StandardError=inherit
 
 # Sandboxing options to harden security

@@ -1,0 +1,36 @@
+- id: github
+  trigger-rule:
+    and:
+    # Github auth
+    - match:
+        type: payload-hmac-sha1
+        secret: __GITHUB_WEBHOOK_SECRET__
+        parameter:
+          source: header
+          name: X-Hub-Signature
+    # Ensure it's the right repository
+    - match:
+        type: value
+        value: https://github.com/YunoHost/landingpage
+        parameter:
+          source: payload
+          name: repository.html_url
+    # Ensure it's the `main` branch
+    - or:
+      - match:
+          type: value
+          value: main
+          parameter:
+            source: payload
+            name: pull_request.head.ref
+      - match:
+          type: value
+          value: webhook
+          parameter:
+            source: payload
+            name: ref
+
+  execute-command: __INSTALL_DIR__/webhook.sh
+  pass-arguments-to-command:
+  - source: payload
+    name: data.artifact_url
