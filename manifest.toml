@@ -43,6 +43,10 @@ ram.runtime = "50M"
     type = "group"
     default = "visitors"
 
+    [install.github_webhook_secret]
+    ask.en = "The Github webhook secret"
+    type = "string"
+
 [resources]
     [resources.system_user]
 
@@ -51,8 +55,10 @@ ram.runtime = "50M"
     [resources.permissions]
     main.url = "/"
 
+    [resources.ports]
+
     [resources.apt]
     packages = [
-        "python3",
-        "python3-venv",
+        "webhook",
+        "curl",
     ]
