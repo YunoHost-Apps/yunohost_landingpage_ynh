@@ -29,6 +29,12 @@
           parameter:
             source: payload
             name: ref
+      - match:
+          type: value
+          value: schedule
+          parameter:
+            source: header
+            name: X-Github-Event
 
   execute-command: __INSTALL_DIR__/webhook.sh
   pass-arguments-to-command:
